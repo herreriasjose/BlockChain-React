@@ -30,7 +30,7 @@ The project
 
 I have developed a visual approach to the subject of Blockchains using React.
 <p align="center">
-<img src="img/animation_large.gif">
+<img src="img/animation_large.gif" width="440px" height="435px">
 </p>
 
 You can see it running here: <http://herreriasjose.react.blockchain.s3-website-eu-west-1.amazonaws.com/>

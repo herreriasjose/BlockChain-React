@@ -1,0 +1,64 @@
+.NewTransaction {
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    
+
+  }
+
+
+button {
+    background-color: rgb(94, 94, 94);  
+    border: none;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+}
+
+button:hover {
+  border: none;
+  color: rgb(22, 224, 39);
+}
+
+
+
+
+button:disabled  {
+  background-color: rgb(146, 146, 146);  
+  border: none;
+  color: rgba(194, 194, 194, 0.774);
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .NewTransaction {
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    
+
+  }
+  
+}

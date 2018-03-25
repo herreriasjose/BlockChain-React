@@ -1,0 +1,26 @@
+.Blockchain {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+
+
+
+
+.Blockchain-display {
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin: auto;
+    width: 80%;
+
+      }
+
+
+
+
+ 

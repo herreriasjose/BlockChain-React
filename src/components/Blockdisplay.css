@@ -1,0 +1,21 @@
+.block-img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+
+}
+ 
+
+.valid {
+    text-align: left;
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+
+.modified {
+    text-align: left;
+    word-wrap: break-word;
+    color: red;
+    margin: 10px;
+}

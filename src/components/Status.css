@@ -1,0 +1,86 @@
+.Status-display {
+
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    width: 50%;
+
+}
+
+.checked {
+    padding: 1px;
+}
+
+
+
+.greenButton {
+    background-color: rgb(36, 204, 45);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px ;
+}
+
+
+.redButton {
+    background-color:  #DC143C;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px ;
+}
+
+
+.checkingButton{
+    background-color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+      -webkit-animation: flash linear 1s infinite;
+      animation: flash linear 1s infinite;
+  }
+  @-webkit-keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
+  @keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
+  /* Pulse class and keyframe animation */
+  .pulseit{
+      -webkit-animation: pulse linear .5s infinite;
+      animation: pulse linear .5s infinite;
+  }
+  @-webkit-keyframes pulse {
+      0% { width:200px; } 
+      50% { width:340px; } 
+      100% { width:200px; }
+  }
+  @keyframes pulse {
+      0% { width:200px; } 
+      50% { width:340px; } 
+      100% { width:200px; }
+  }
+
+
+
+ 

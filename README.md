@@ -17,9 +17,9 @@ So basically, a block chain is a linked data structure that grows as a set of no
 
 The blockchain is a more complex data structure. Each of these self-referenced data is called a "block" and each of them has an index, a timestamp, a hash of its own, a hash of the previous block and the data it contains. This data can be of any kind. When we refer to cryptocurrency, the data is the details of the transaction, basically the sender, the amount and the recipient. 
 
-<div align="center">
+<p align="center">
 ![blockchain](img/blockchain.png)
-</div>
+</p>
 
 The blockchain, thanks to the hashs, which act like fingerprints, is not easy to manipulate.  These hashes are generated only once when the block is created and for this purpose the values of the other attributes of the block are used. If we change, even if only one value, the hash will no longer be valid and the whole block will be invalidated.
 

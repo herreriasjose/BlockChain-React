@@ -1,4 +1,4 @@
-
+cd
 
 A visual approach to BlockChains using React
 -------------------------------------------- 
@@ -28,7 +28,7 @@ Blockchains are not stored on a centralized server. They are distributed through
 The project
 -----------------
 
-We have developed a visual approach to the subject of Blockchains using React.
+I have developed a visual approach to the subject of Blockchains using React.
 
 ![animation](img/animation_large.gif)
 

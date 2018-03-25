@@ -26,7 +26,7 @@ The blockchain, thanks to the hashs, which act like fingerprints, is not easy to
 Blockchains are not stored on a centralized server. They are distributed throughout the Internet and connected using a peer-to-peer network. When someone joins this network they are given a full copy of it; and when they create a new block, it is sent to all peers and the validity of the string is checked. If everything is correct the new block is connected to the string. 
 
 The project
------------------
+-----------
 
 I have developed a visual approach to the subject of Blockchains using React.
 <p align="center">

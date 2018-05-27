@@ -1,6 +1,16 @@
 A visual approach to BlockChains using React
 -------------------------------------------- 
 
+I have developed a visual approach to the subject of Blockchains using React.
+<p align="center">
+<img src="img/animation_large.gif" width="440px" height="435px">
+</p>
+
+You can see it running here: <https://blockchain-react.firebaseapp.com/>
+
+The project
+-----------
+
 The first work on a block chain with cryptographic security was described in 1991 by Stuart Haber and W. Scott Stornetta. The first blockchain was conceptualized by Satoshi Nakamoto 2008 for use in bitcoin cryptocurrency.
 
 A block chain is a distributed database. It is made up of block chains that have been designed to avoid modification once a data has been published. This is done by using a reliable time stamp and linking to a previous block. 
@@ -25,12 +35,4 @@ The blockchain, thanks to the hashs, which act like fingerprints, is not easy to
 
 Blockchains are not stored on a centralized server. They are distributed throughout the Internet and connected using a peer-to-peer network. When someone joins this network they are given a full copy of it; and when they create a new block, it is sent to all peers and the validity of the string is checked. If everything is correct the new block is connected to the string. 
 
-The project
------------
 
-I have developed a visual approach to the subject of Blockchains using React.
-<p align="center">
-<img src="img/animation_large.gif" width="440px" height="435px">
-</p>
-
-You can see it running here: <http://herreriasjose.react.blockchain.s3-website-eu-west-1.amazonaws.com/>

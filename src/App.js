@@ -11,23 +11,27 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <div className="row">
-            <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
-            <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
-              <h1 className="text-primary">
-                A visual approach to BlockChains using React
-              </h1>
-              <img src={chain} className="App-logo" alt="chain" />
+          <div className="col-md-12">
+            <div className="row">
+              <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
+              <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
+                <h1 className="text-primary">
+                  A visual approach to BlockChains using React
+                </h1>
+                <img src={chain} className="App-logo" alt="chain" />
+              </div>
+              <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
             </div>
-            <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
           </div>
-        </div>
-        <div className="row p-2">
-          <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
-          <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
-            <Layout />
+          <div className="col-md-12">
+            <div className="row p-2">
+              <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
+              <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
+                <Layout />
+              </div>
+              <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
+            </div>
           </div>
-          <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
         </div>
       </div>
     );

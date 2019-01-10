@@ -8,8 +8,8 @@
 
 .App-header {
   background-color: rgb(255, 255, 255);
-  height: 150px;
-  padding: 20px;
+  height: 10%;
+ 
   color: rgb(0, 0, 0);
 }
 
@@ -22,9 +22,15 @@
 }
 
  
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
+
+  .App-header {
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    color: rgb(0, 0, 0);
+  }
   .App-logo {
-     height: 30px;
+     height: 5rem;
   }
   
 }

@@ -12,37 +12,7 @@
   }
 
 
-button {
-    background-color: rgb(94, 94, 94);  
-    border: none;
-    color: white;
-    padding: 15px 15px 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 10px;
-}
-
-button:hover {
-  border: none;
-  color: rgb(22, 224, 39);
-}
-
-
-
-
-button:disabled  {
-  background-color: rgb(146, 146, 146);  
-  border: none;
-  color: rgba(194, 194, 194, 0.774);
-  padding: 15px 15px 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 10px;
-}
+ 
 
 
 .column-in-center{

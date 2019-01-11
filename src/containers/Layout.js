@@ -7,9 +7,11 @@ import './Layout.css';
 const Layout = (props) =>  {
 
     return(
-        <div>
+        <div className="layout">
             {props.children}
+            <div>
             <Blockchain />
+            </div>
         </div>
     );
 

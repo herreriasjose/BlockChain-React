@@ -84,7 +84,7 @@ class NewTransaction extends Component {
           />
           <br />
 
-          <button
+          <button className="transaction-button"
             id="processTransaction"
             disabled={this.props.isModified}
             onClick={this.processTransaction}

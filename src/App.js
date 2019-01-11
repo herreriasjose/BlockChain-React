@@ -5,6 +5,7 @@ import "./App.css";
 import "../src/bootstrap/css/bootstrap.min.css";
 
 import Layout from "../src/containers/Layout";
+import Footer from "../src/components/Footer";
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

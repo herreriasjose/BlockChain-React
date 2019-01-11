@@ -123,7 +123,7 @@ class Blockchain extends Component {
             <NewTransaction addBlock={this.newTransactionHandler} isModified={this.state.isChainModified} />
             <Status modifyBlockchain={this.modifyBlockchainHandler} isModified={this.state.isChainModified} isChecking={this.state.isChecking}/>
             <div>
-                
+                <br/><br/>
                 <div className="Blockchain-display">
                 <h2>BlockChain</h2>
                 {chainDisplay}

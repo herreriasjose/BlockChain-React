@@ -1,6 +1,6 @@
 .Blockchain {
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 250, 255);
     padding: 10px;
   }
 
@@ -10,7 +10,7 @@
 
 .Blockchain-display {
     text-align: center;
-    background-color: rgb(199, 199, 199);
+    background-color: rgba(199, 199, 199, 0.253);
     padding: 10px;
     border-radius: 15px;
     -webkit-border-radius: 15px;

@@ -6,6 +6,7 @@ import "../src/bootstrap/css/bootstrap.min.css";
 
 import Layout from "../src/containers/Layout";
 import Footer from "../src/components/Footer";
+import Info from "../src/components/Info";
 
 class App extends Component {
   render() {
@@ -20,7 +21,9 @@ class App extends Component {
                   A visual approach to BlockChains using React
                 </h1>
                 <img src={chain} className="App-logo" alt="chain" />
+                <Info/>
               </div>
+              
               <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
             </div>
           </div>

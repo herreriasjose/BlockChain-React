@@ -51,7 +51,7 @@ class NewTransaction extends Component {
   render() {
     return (
       <div className="">
-        <h2>New Transaction</h2>
+        <h2>Create New Transaction</h2>
         <br/>
         <form className="">
           <input
@@ -89,7 +89,7 @@ class NewTransaction extends Component {
             disabled={this.props.isModified}
             onClick={this.processTransaction}
           >
-            Process
+            Process Transaction
           </button>
         </form>
 
